@@ -12,13 +12,60 @@
   justify-content: center;
 }
 
+.foto-outter{
+  border: black 2px solid;
+  background-color: lavender;
+  position: absolute;
+  z-index: 2;  
+  height: 60rem;
+  width: 60rem;
+  padding: 2rem;
+  box-shadow: rgb(82, 79, 79) 0 1rem 1rem 0;
+  margin-top: 100%;
+  animation-name: foto-slide;
+  animation-duration: 10s;
+  animation-delay: 3s;
+}
+  
+@keyframes foto-slide{
+  0%{
+    margin-top: 100%;
+  }
+  25%{
+    margin-top: 0%;    
+  }
+
+  100%{
+    margin-top: 0
+  }
+}
+
+.foto{
+  height: 100%;
+  width: 100%;
+  animation-name: foto-fade;
+  animation-delay: 6s;
+  animation-duration: 10s;
+  opacity: 0%;
+
+}
+
+@keyframes foto-fade{
+  from{
+    opacity: 0%;
+  }
+  to{
+    opacity: 100%;
+  }
+}
+
 .camera-upper {
   border: steelblue solid 1px;
   width: 50rem;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  /* background-color: steelblue solid; */
+  background-color: steelblue solid;
 }
 
 .button {
@@ -38,7 +85,8 @@
     height: 2rem;  
   }
   to{
-    height: 0.5rem;  
+    height: 0.5rem;
+    
   }
 }
 
