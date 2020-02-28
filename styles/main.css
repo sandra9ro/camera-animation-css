@@ -17,15 +17,18 @@
   background-color: lavender;
   height: 50rem;
   width: 50rem;
-  padding: 2rem;
+  padding: 3rem 0rem 0rem 0rem;
+  /* margin: 2rem 0rem; */
   box-shadow: rgb(82, 79, 79) 0 1rem 1rem 0;
   margin-top: 100%;
   position: absolute;
+  display: flex;
+  justify-content: center;
   z-index: 2;  
   overflow: hidden;
   animation-name: foto-slide;
   animation-duration: 10s;
-  animation-delay: 3s;
+  animation-delay: 2.5s;
 }
   
 @keyframes foto-slide{
@@ -42,20 +45,24 @@
 }
 
 .foto{
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  width: 90%;
   animation-name: foto-fade;
-  animation-delay: 6s;
+  animation-delay: 5s;
   animation-duration: 10s;
   opacity: 0%;
+
 
 }
 
 @keyframes foto-fade{
-  from{
+  0%{
     opacity: 0%;
   }
-  to{
+  80%{
+    opacity: 100%;
+  }
+  100%{
     opacity: 100%;
   }
 }
