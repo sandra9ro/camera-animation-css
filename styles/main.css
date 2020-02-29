@@ -194,6 +194,8 @@
 .foto-outter{
   height: 15rem;
   width: 15rem;
+  margin-top: 200%;
+
   /* padding: 3rem 0rem 0rem 0rem; */
 }
 .camera-upper {
