@@ -1,11 +1,13 @@
 .body {
   margin: 0;
   padding: 0;
+
 }
 
 .main-container {
   border: rgb(4, 0, 255) 1px solid;
   height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,8 +26,8 @@
   position: absolute;
   display: flex;
   justify-content: center;
-  z-index: 2;  
-  overflow: hidden;
+  /* z-index: 2;   */
+  /* overflow: hidden; */
   animation-name: foto-slide;
   animation-duration: 10s;
   animation-delay: 2.5s;
@@ -187,4 +189,21 @@
   height: 15rem;
   width: 15rem;
   border-radius: 50%;
+}
+
+@media all and (max-width:677px){
+.foto-outter{
+  height: 15rem;
+  width: 15rem;
+  /* padding: 3rem 0rem 0rem 0rem; */
+}
+.camera-upper {
+  border: steelblue solid 1px;
+  width: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: steelblue solid;
+}
+
 }
