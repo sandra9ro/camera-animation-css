@@ -26,8 +26,8 @@
   position: absolute;
   display: flex;
   justify-content: center;
-  /* z-index: 2;   */
-  /* overflow: hidden; */
+  z-index: 2;  
+  overflow: hidden;
   animation-name: foto-slide;
   animation-duration: 10s;
   animation-delay: 2.5s;
@@ -154,12 +154,12 @@
 }
 
 @keyframes ligth-flash {
-
+  
   from{
     width: 0rem;
     height: 0rem;
   }
-
+  
   to{
     width: 100rem;
     height: 100rem;
@@ -198,12 +198,52 @@
   /* padding: 3rem 0rem 0rem 0rem; */
 }
 .camera-upper {
-  border: steelblue solid 1px;
+  border: 3px solid black;
   width: 50rem;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  background-color: steelblue solid;
 }
+.button {
+  height: 0.8rem;
+  width: 2rem;
+  transform: translate(-5rem, 2.8rem);
+}
+
+.camera {
+  height: 10rem;
+  width: 15rem;
+}
+.visor {
+  height: 2.5rem;
+  width: 5rem;
+}
+.inner-visor{
+  height: 1.5rem;
+  width: 2rem;
+}
+.flash-outter {
+  /* border: white solid 2px; */
+  width: 80%;
+}
+.flash {
+  height: 1.5rem;
+  width: 3.5rem;
+}
+
+/* .flash-ligth{
+  transform: rotate(45deg);
+  background-color: white;
+  animation-name: ligth-flash;
+  animation-duration: 0.2s;
+  animation-delay: 2.5s;
+} */
+.lens {
+  height: 6rem;
+  width: 6rem;
+}
+
+.inner-lens {
+  height: 5rem;
+  width: 5rem;
+}
+
 
 }
