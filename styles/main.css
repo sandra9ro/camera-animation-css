@@ -31,7 +31,7 @@
   animation-name: foto-slide;
   animation-duration: 10s;
   animation-delay: 2.5s;
-  /* margin-top: 100%; */
+  margin-top: 110%;
 
 }
   
@@ -55,8 +55,6 @@
   animation-delay: 5s;
   animation-duration: 10s;
   opacity: 0%;
-
-
 }
 
 @keyframes foto-fade{
@@ -89,7 +87,6 @@
   animation-name: press-button;
   animation-duration: 0.2s;
   animation-delay: 1.8s;
-
 }
 
 @keyframes press-button{
@@ -229,14 +226,6 @@
   height: 1.5rem;
   width: 3.5rem;
 }
-
-/* .flash-ligth{
-  transform: rotate(45deg);
-  background-color: white;
-  animation-name: ligth-flash;
-  animation-duration: 0.2s;
-  animation-delay: 2.5s;
-} */
 .lens {
   height: 6rem;
   width: 6rem;
