@@ -31,6 +31,8 @@
   animation-name: foto-slide;
   animation-duration: 10s;
   animation-delay: 2.5s;
+  /* margin-top: 100%; */
+
 }
   
 @keyframes foto-slide{
